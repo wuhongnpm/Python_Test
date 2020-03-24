@@ -1,0 +1,177 @@
+{
+  "uid" : "5779c0ae4b706e75",
+  "name" : "test_add_goods_cart",
+  "fullName" : "test_demo.TestAllure#test_add_goods_cart",
+  "historyId" : "d42712c99f12225f82d0684366394553",
+  "time" : {
+    "start" : 1584025420664,
+    "stop" : 1584025420669,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "用户登录",
+      "time" : {
+        "start" : 1584025420665,
+        "stop" : 1584025420665,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'crisimple'"
+      }, {
+        "name" : "passwd",
+        "value" : "'123456'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "浏览商品",
+      "time" : {
+        "start" : 1584025420665,
+        "stop" : 1584025420666,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8d4c62e12432c5c",
+        "name" : "C",
+        "source" : "a8d4c62e12432c5c.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "8e031670b38e560e",
+        "name" : "C",
+        "source" : "8e031670b38e560e.attach",
+        "type" : "text/plain",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "加入商品",
+      "time" : {
+        "start" : 1584025420666,
+        "stop" : 1584025420667,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8c5a46a7c23dcc3e",
+        "name" : "2",
+        "source" : "8c5a46a7c23dcc3e.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "935806fb1b394ee",
+        "name" : "3",
+        "source" : "935806fb1b394ee.attach",
+        "type" : "text/plain",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验商品",
+      "time" : {
+        "start" : 1584025420667,
+        "stop" : 1584025420668,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d0c0ca51e83360a",
+        "name" : "共2个",
+        "source" : "4d0c0ca51e83360a.attach",
+        "type" : "text/plain",
+        "size" : 19
+      }, {
+        "uid" : "ff471be5dd22c5d4",
+        "name" : "共0个",
+        "source" : "ff471be5dd22c5d4.attach",
+        "type" : "text/plain",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "c6052268f7e5cc9c",
+      "name" : "stdout",
+      "source" : "c6052268f7e5cc9c.txt",
+      "type" : "text/plain",
+      "size" : 30
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "报告购物车"
+  }, {
+    "name" : "story",
+    "value" : "加入购物车"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllure"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FAI7NLA"
+  }, {
+    "name" : "thread",
+    "value" : "4628-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5779c0ae4b706e75.json",
+  "parameterValues" : [ ]
+}
