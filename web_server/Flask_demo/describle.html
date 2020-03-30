@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01</title>
+</head>
+<body>
+Flask 是一个轻量级的 Web 应用框架, 使用 Python 编写。基于 WerkzeugWSGI 工具箱和 Jinja2 模板引擎。
+使用 BSD 授权。Flask 也被称为 microframework .
+安装pip install -U https://github.com/pallets/flask/archive/master.tar.gz
+
+(1)编写hello.py 在win10cmd运行 $set FLASK_APP=hello.py  #falsk run  打开http://127.0.0.1:5000/
+(2)关闭debug让服务器对外公开 $flask run --host=0.0.0.0  这样去监听所有公开的 IP.
+(3)打开调试模式,代码修改后服务器能够自动重载，并且如果发生错误，它会提供一个有用的调试器.$set FLASK_ENV=development
+$set FLASK_DEBUG=1 $flask run
+(4)路由:
+route 装饰器是用于把一个函数绑定到一个 URL 上。
+构建url:去构建一个 URL 来匹配一个特定的函数可以使用 url_for() 方法。它接受函数名作为第一个参数，
+以及一些关键字参数，每一个关键字参数对应于 URL 规则的变量部分。
+未知变量部分被插入到 URL 中作为查询参数
+test_request_context() 方法告诉 Flask 表现得像是在处理一个请求，即使我们正在通过 Python shell 交互。
+(5)静态资源
+方法 render_template() 来渲染模板
+(6)接受请求数据
+如果想在没有请求的情况下获取上下文，可以使用test_request_context()或者request_context()，
+从request对象的form中可以获取表单的数据，args中可以获取 URL 中的参数，files可以获取上传的文件，cookies可以操作cookie。
+(7)重定向
+redirect()函数重定向用户到其它地方。能够用abort()函数提前中断一个请求并带有一个错误代码。
+
+
+</body>
+</html>
