@@ -1,8 +1,6 @@
-from selenium import  webdriver
-
-browser = webdriver.Chrome(executable_path="../../../../../zc/chromedrive/chromedriver.exe")
-browser.get('https://testerhome.com/')
-
-
-size=browser.set_window_size(800,600)
-browser.get_screenshot_as_file("D:\\a.png")
+from selenium import webdriver
+dr= webdriver.Chrome(executable_path="../../../../../zc/chromedrive/chromedriver.exe")
+# executable_path来指定chromedirver路径
+dr.get('https://www.baidu.com')
+print(dr.title)
+browser.quit()
