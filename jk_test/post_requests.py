@@ -1,8 +1,8 @@
 #发送post请求的接口（dict参数）
 import  requests
 
-url = 'http:bin.org/bin'
-payload = {"username":'3210682950@qq.com',"passowrd":'mcaddd'}#值以字典的形式传入
+url = 'https://www.doyoudo.com/signin'
+payload = {"username":'16654151407',"passowrd"':dy19970727'}#值以字典的形式传入
 response = requests.post(url=url,data=payload)
 print(response.text)
 
